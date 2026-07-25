@@ -1,0 +1,20 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Full bleed, no rounded corners: iOS and Android apply their own mask.
+       Everything meaningful sits inside the maskable safe circle r=205 at (256,256).
+       Literal fallbacks are REQUIRED here: sharp rasterizes this standalone,
+       with no stylesheet in scope to resolve the custom properties. -->
+  <rect width="512" height="512" fill="var(--bg, #F2E6D8)"/>
+  <ellipse cx="256" cy="386" rx="118" ry="18" fill="var(--shadow, #DFCDB7)"/>
+  <path d="M256 136c-64 0-98 51-98 118 0 71 41 118 98 118s98-47 98-118c0-67-34-118-98-118z"
+        fill="var(--fur, #93AE86)"/>
+  <path d="M158 278c0 71 41 118 98 118s98-47 98-118c-24 44-58 64-98 64s-74-20-98-64z"
+        fill="var(--fur-shade, #7A9670)" opacity="0.35"/>
+  <ellipse cx="219" cy="248" rx="13" ry="17" fill="var(--ink, #3A3226)"/>
+  <ellipse cx="293" cy="248" rx="13" ry="17" fill="var(--ink, #3A3226)"/>
+  <circle cx="223" cy="241" r="5" fill="var(--bg, #F2E6D8)"/>
+  <circle cx="297" cy="241" r="5" fill="var(--bg, #F2E6D8)"/>
+  <path d="M237 288q19 15 38 0" stroke="var(--ink, #3A3226)" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <ellipse cx="187" cy="273" rx="17" ry="11" fill="var(--blush, #E2A08A)" opacity="0.6"/>
+  <ellipse cx="325" cy="273" rx="17" ry="11" fill="var(--blush, #E2A08A)" opacity="0.6"/>
+  <path d="M256 136c-4-30 15-52 45-56-4 34-19 52-45 56z" fill="var(--accent-2, #7FA05C)"/>
+</svg>

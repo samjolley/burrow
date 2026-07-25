@@ -1,20 +1,23 @@
-<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-  <!-- Full bleed, no rounded corners: iOS and Android apply their own mask.
-       Everything meaningful sits inside the maskable safe circle r=205 at (256,256).
-       Literal fallbacks are REQUIRED here: sharp rasterizes this standalone,
-       with no stylesheet in scope to resolve the custom properties. -->
-  <rect width="512" height="512" fill="var(--bg, #F2E6D8)"/>
-  <ellipse cx="256" cy="386" rx="118" ry="18" fill="var(--shadow, #DFCDB7)"/>
-  <path d="M256 136c-64 0-98 51-98 118 0 71 41 118 98 118s98-47 98-118c0-67-34-118-98-118z"
-        fill="var(--fur, #93AE86)"/>
-  <path d="M158 278c0 71 41 118 98 118s98-47 98-118c-24 44-58 64-98 64s-74-20-98-64z"
-        fill="var(--fur-shade, #7A9670)" opacity="0.35"/>
-  <ellipse cx="219" cy="248" rx="13" ry="17" fill="var(--ink, #3A3226)"/>
-  <ellipse cx="293" cy="248" rx="13" ry="17" fill="var(--ink, #3A3226)"/>
-  <circle cx="223" cy="241" r="5" fill="var(--bg, #F2E6D8)"/>
-  <circle cx="297" cy="241" r="5" fill="var(--bg, #F2E6D8)"/>
-  <path d="M237 288q19 15 38 0" stroke="var(--ink, #3A3226)" stroke-width="7" fill="none" stroke-linecap="round"/>
-  <ellipse cx="187" cy="273" rx="17" ry="11" fill="var(--blush, #E2A08A)" opacity="0.6"/>
-  <ellipse cx="325" cy="273" rx="17" ry="11" fill="var(--blush, #E2A08A)" opacity="0.6"/>
-  <path d="M256 136c-4-30 15-52 45-56-4 34-19 52-45 56z" fill="var(--accent-2, #7FA05C)"/>
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"
+     preserveAspectRatio="xMidYMid meet"
+     role="img" aria-labelledby="icon-title">
+  <title id="icon-title">Burrow</title>
+
+  <rect x="0" y="0" width="512" height="512" fill="var(--burrow-bg, #3B2E24)"/>
+
+  <path d="M256 144C330 144 392 196 392 252C392 292 372 320 340 330C358 348 358 376 340 392C316 404 196 404 172 392C154 376 154 348 172 330C140 320 120 292 120 252C120 196 182 144 256 144Z" fill="var(--fur, #9DBB8A)"/>
+  <path d="M172 330C196 348 316 348 340 330C356 348 358 376 340 392C316 404 196 404 172 392C154 376 156 348 172 330Z" fill="var(--fur-shade, #82A171)"/>
+
+  <ellipse cx="168" cy="292" rx="24" ry="14" fill="var(--blush, #E2957E)"/>
+  <ellipse cx="344" cy="292" rx="24" ry="14" fill="var(--blush, #E2957E)"/>
+
+  <circle cx="212" cy="250" r="28" fill="var(--ink, #33291F)"/>
+  <circle cx="300" cy="250" r="28" fill="var(--ink, #33291F)"/>
+  <circle cx="202" cy="240" r="9" fill="var(--fur, #9DBB8A)"/>
+  <circle cx="290" cy="240" r="9" fill="var(--fur, #9DBB8A)"/>
+
+  <path d="M230 298Q256 318 282 298" fill="none" stroke="var(--ink, #33291F)" stroke-width="9" stroke-linecap="round"/>
+
+  <path d="M248 150C262 112 306 104 330 118C316 152 272 164 248 150Z" fill="var(--accent-2, #C96F3F)"/>
+  <path d="M252 150C274 142 306 130 325 120" fill="none" stroke="var(--ink, #33291F)" stroke-width="5" stroke-linecap="round"/>
 </svg>

@@ -1,5 +1,5 @@
 // Bump CACHE on every deploy. Keep it in lockstep with BUILD in index.html.
-const CACHE = 'burrow-v2';
+const CACHE = 'burrow-v3';
 
 // VERIFIED shell list. A single 404 rejects the entire install.
 // ponytail: three entries. Do not add the manifest or the PNGs "for completeness" —

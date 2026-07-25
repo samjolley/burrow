@@ -1,0 +1,27 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-labelledby="icon-title">
+  <title id="icon-title">Burrow</title>
+
+  <rect x="0" y="0" width="512" height="512" fill="var(--icon-bg, #E9D5B4)"/>
+
+  <!-- burrow mouth: everything meaningful stays inside r=205 of (256,256) -->
+  <circle cx="256" cy="262" r="178" fill="var(--ink, #3A2E28)"/>
+
+  <circle cx="170" cy="222" r="24" fill="var(--fur-shade, #E4CBA9)"/>
+  <circle cx="342" cy="222" r="24" fill="var(--fur-shade, #E4CBA9)"/>
+
+  <path d="M256 168 C316 168 366 214 366 278 C366 330 330 366 256 366 C182 366 146 330 146 278 C146 214 196 168 256 168 Z" fill="var(--fur-shade, #E4CBA9)"/>
+
+  <!-- front paws resting on the burrow lip -->
+  <ellipse cx="204" cy="388" rx="32" ry="19" fill="var(--fur-shade, #E4CBA9)"/>
+  <ellipse cx="308" cy="388" rx="32" ry="19" fill="var(--fur-shade, #E4CBA9)"/>
+
+  <ellipse cx="256" cy="306" rx="70" ry="54" fill="var(--fur, #9C7C61)"/>
+
+  <circle cx="206" cy="246" r="19" fill="var(--ink, #3A2E28)"/>
+  <circle cx="306" cy="246" r="19" fill="var(--ink, #3A2E28)"/>
+
+  <path d="M226 272 Q256 261 286 272 Q284 297 256 306 Q228 297 226 272 Z" fill="var(--ink, #3A2E28)"/>
+  <path d="M256 306 L256 318" fill="none" stroke="var(--ink, #3A2E28)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M228 316 Q242 331 256 319 Q270 331 284 316" fill="none" stroke="var(--ink, #3A2E28)" stroke-width="9" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"
+  role="img" aria-label="Burrow">
+  <rect x="0" y="0" width="512" height="512" fill="var(--icon-bg, #4A4034)"/>
+  <ellipse cx="256" cy="396" rx="138" ry="20" fill="var(--fur-shade, #A6957C)" opacity="0.45"/>
+  <path d="M256 156 C328 156 368 214 376 288 C381 340 388 380 390 396 L122 396 C124 380 131 340 136 288 C144 214 184 156 256 156 Z" fill="var(--fur, #C9BCA6)"/>
+  <path d="M256 156 C306 158 342 186 352 214 C338 234 318 226 308 204 C298 184 276 186 270 202 C262 216 250 216 244 202 C236 186 214 184 206 204 C198 226 178 232 164 212 C180 180 212 156 256 156 Z" fill="var(--accent-2, #7C9A63)"/>
+  <path d="M300 170 C312 150 326 142 340 140" stroke="var(--accent-2, #7C9A63)" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <path d="M340 140 C346 126 364 124 368 132 C364 146 348 150 340 140 Z" fill="var(--accent-2, #7C9A63)"/>
+  <circle cx="212" cy="292" r="22" fill="var(--ink, #3A3129)"/>
+  <circle cx="300" cy="292" r="22" fill="var(--ink, #3A3129)"/>
+  <path d="M232 330 Q256 348 280 330" stroke="var(--ink, #3A3129)" stroke-width="13" fill="none" stroke-linecap="round"/>
+</svg>

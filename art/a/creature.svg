@@ -1,0 +1,101 @@
+<svg id="pet" class="pet is-awake" viewBox="0 0 240 240"
+     xmlns="http://www.w3.org/2000/svg"
+     preserveAspectRatio="xMidYMid meet"
+     role="img" aria-labelledby="pet-title">
+  <title id="pet-title">Your creature</title>
+
+  <g id="shadow">
+    <ellipse cx="120" cy="210" rx="70" ry="10" fill="var(--shadow)"/>
+  </g>
+
+  <!-- bedding mound: drawn behind the body, so it reads as tucked-in, not covered -->
+  <g id="blanket">
+    <path d="M32 202C32 170 50 148 78 156C92 176 148 176 162 156C190 148 208 170 208 202C208 208 202 212 192 212L48 212C38 212 32 208 32 202Z" fill="var(--blanket)"/>
+    <path d="M40 196C38 176 46 162 62 158" fill="none" stroke="var(--accent)" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M200 196C202 176 194 162 178 158" fill="none" stroke="var(--accent)" stroke-width="4.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- transform-origin: 120px 206px (settle / breathe from the ground) -->
+  <g id="body">
+    <path d="M120 66C162 66 196 96 196 126C196 148 184 162 168 168C178 178 178 192 168 200C158 206 140 206 120 206C100 206 82 206 72 200C62 192 62 178 72 168C56 162 44 148 44 126C44 96 78 66 120 66Z" fill="var(--fur)"/>
+    <path d="M72 166C90 182 150 182 168 166C172 178 172 194 166 201C156 206 140 206 120 206C100 206 84 206 74 201C68 194 68 178 72 166Z" fill="var(--fur-shade)"/>
+  </g>
+
+  <g id="acc-scarf">
+    <path d="M72 160C84 172 156 172 168 160C173 171 170 180 160 183C140 189 100 189 80 183C70 180 67 171 72 160Z" fill="var(--accent)"/>
+    <path d="M148 183C156 196 154 206 146 212C141 210 136 208 132 207C139 198 141 190 139 184Z" fill="var(--accent)"/>
+  </g>
+
+  <g id="face-asleep">
+    <path d="M87 113C93 122 103 122 109 113" fill="none" stroke="var(--ink)" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M131 113C137 122 147 122 153 113" fill="none" stroke="var(--ink)" stroke-width="4.5" stroke-linecap="round"/>
+    <ellipse cx="120" cy="141" rx="4.5" ry="3.5" fill="var(--ink)"/>
+    <ellipse cx="80" cy="132" rx="7" ry="4.5" fill="var(--blush)"/>
+    <ellipse cx="160" cy="132" rx="7" ry="4.5" fill="var(--blush)"/>
+  </g>
+
+  <g id="face-awake">
+    <circle cx="98" cy="116" r="9.5" fill="var(--ink)"/>
+    <circle cx="142" cy="116" r="9.5" fill="var(--ink)"/>
+    <circle cx="94.5" cy="112.5" r="3" fill="var(--fur)"/>
+    <circle cx="138.5" cy="112.5" r="3" fill="var(--fur)"/>
+    <path d="M112 139Q120 145 128 139" fill="none" stroke="var(--ink)" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <g id="face-cozy">
+    <path d="M88.5 116Q98 134 107.5 116Z" fill="var(--ink)"/>
+    <path d="M132.5 116Q142 134 151.5 116Z" fill="var(--ink)"/>
+    <path d="M87 111Q98 106 109 111" fill="none" stroke="var(--ink)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M131 111Q142 106 153 111" fill="none" stroke="var(--ink)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M106 137Q120 149 134 137" fill="none" stroke="var(--ink)" stroke-width="3.5" stroke-linecap="round"/>
+    <ellipse cx="78" cy="132" rx="8" ry="5" fill="var(--blush)"/>
+    <ellipse cx="162" cy="132" rx="8" ry="5" fill="var(--blush)"/>
+  </g>
+
+  <g id="face-celebrate">
+    <path d="M88 122Q98 106 108 122" fill="none" stroke="var(--ink)" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M132 122Q142 106 152 122" fill="none" stroke="var(--ink)" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M107 136Q120 154 133 136Z" fill="var(--ink)"/>
+    <ellipse cx="76" cy="132" rx="9" ry="5.5" fill="var(--blush)"/>
+    <ellipse cx="164" cy="132" rx="9" ry="5.5" fill="var(--blush)"/>
+  </g>
+
+  <g id="acc-leaf">
+    <path d="M118 68C124 55 144 54 154 59C146 71 126 76 118 68Z" fill="var(--accent-2)"/>
+    <path d="M120 68C130 65 142 61 151 59" fill="none" stroke="var(--ink)" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <g id="acc-mug">
+    <path d="M187 179H205L202 197Q195 202 190 197Z" fill="var(--accent-2)"/>
+    <path d="M204 183C207 185 207 192 202 193" fill="none" stroke="var(--accent-2)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M192 173C189 169 194 166 191 162" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M201 173C198 169 203 166 200 163" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <g id="acc-lantern">
+    <path d="M36 167C36 157 48 157 48 167" fill="none" stroke="var(--ink)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M33 167H51L49 172H35Z" fill="var(--ink)"/>
+    <path d="M35 172H49L50 187Q42 193 34 187Z" fill="var(--accent)"/>
+    <path d="M33 188H51L49 193H35Z" fill="var(--ink)"/>
+  </g>
+
+  <g id="zzz">
+    <path d="M158 66H166L158 74H166" fill="none" stroke="var(--ink)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M170 52H180L170 62H180" fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M186 38H198L186 50H198" fill="none" stroke="var(--ink)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g id="hearts">
+    <path d="M72 71C62 63 62 54 72 59C82 54 82 63 72 71Z" fill="var(--blush)"/>
+    <path d="M54 85C47 79 47 73 54 76C61 73 61 79 54 85Z" fill="var(--blush)"/>
+    <path d="M90 58C84 53 85 49 90 51C95 49 96 53 90 58Z" fill="var(--blush)"/>
+  </g>
+
+  <g id="sparkles">
+    <path d="M66 59Q66 68 75 68Q66 68 66 77Q66 68 57 68Q66 68 66 59Z" fill="var(--accent)"/>
+    <path d="M176 54Q176 64 186 64Q176 64 176 74Q176 64 166 64Q176 64 176 54Z" fill="var(--accent)"/>
+    <path d="M198 109Q198 116 205 116Q198 116 198 123Q198 116 191 116Q198 116 198 109Z" fill="var(--accent-2)"/>
+    <path d="M42 111Q42 118 49 118Q42 118 42 125Q42 118 35 118Q42 118 42 111Z" fill="var(--accent-2)"/>
+    <path d="M186 144Q186 150 192 150Q186 150 186 156Q186 150 180 150Q186 150 186 144Z" fill="var(--accent)"/>
+  </g>
+</svg>

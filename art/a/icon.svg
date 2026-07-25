@@ -1,0 +1,23 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"
+     preserveAspectRatio="xMidYMid meet"
+     role="img" aria-labelledby="icon-title">
+  <title id="icon-title">Burrow</title>
+
+  <rect x="0" y="0" width="512" height="512" fill="var(--burrow-bg, #3B2E24)"/>
+
+  <path d="M256 144C330 144 392 196 392 252C392 292 372 320 340 330C358 348 358 376 340 392C316 404 196 404 172 392C154 376 154 348 172 330C140 320 120 292 120 252C120 196 182 144 256 144Z" fill="var(--fur, #9DBB8A)"/>
+  <path d="M172 330C196 348 316 348 340 330C356 348 358 376 340 392C316 404 196 404 172 392C154 376 156 348 172 330Z" fill="var(--fur-shade, #82A171)"/>
+
+  <ellipse cx="168" cy="292" rx="24" ry="14" fill="var(--blush, #E2957E)"/>
+  <ellipse cx="344" cy="292" rx="24" ry="14" fill="var(--blush, #E2957E)"/>
+
+  <circle cx="212" cy="250" r="28" fill="var(--ink, #33291F)"/>
+  <circle cx="300" cy="250" r="28" fill="var(--ink, #33291F)"/>
+  <circle cx="202" cy="240" r="9" fill="var(--fur, #9DBB8A)"/>
+  <circle cx="290" cy="240" r="9" fill="var(--fur, #9DBB8A)"/>
+
+  <path d="M230 298Q256 318 282 298" fill="none" stroke="var(--ink, #33291F)" stroke-width="9" stroke-linecap="round"/>
+
+  <path d="M248 150C262 112 306 104 330 118C316 152 272 164 248 150Z" fill="var(--accent-2, #C96F3F)"/>
+  <path d="M252 150C274 142 306 130 325 120" fill="none" stroke="var(--ink, #33291F)" stroke-width="5" stroke-linecap="round"/>
+</svg>

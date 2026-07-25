@@ -42,6 +42,23 @@ at startup if the resolved zone is wrong, rather than producing confusing failur
 
 No framework, no build step, no `package.json`, no dependencies.
 
+## Swapping the creature
+
+Three interchangeable designs live in `art/`: **a** abstract blob (installed), **b** burrowing
+creature, **c** mossy stone hermit. Each was drawn to the same contract — `viewBox="0 0 240 240"`,
+a fixed anchor grid, fourteen required group ids, fixed layer order, `var(--*)` paint only, no
+text/fonts/filters/SMIL — so any of them drops in with no other change.
+
+```bash
+node art/install.mjs c && node make-icons.mjs
+```
+
+That replaces the inline `<svg id="pet">` block, reseeds the eight light-theme palette variables to
+that delivery's colours, and copies its `icon.svg`. Bump `CACHE` in `sw.js` and `BUILD` in
+`index.html`, then push.
+
+The dark-theme palette is hand-tuned and is **not** reseeded — check it after a swap.
+
 ## Deploy
 
 ```bash

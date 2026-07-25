@@ -351,7 +351,7 @@ function boot() {
 
     // No timers: iOS suspends them. Every resume path recomputes instead.
     addEventListener('pageshow', () => render());
-    addEventListener('visibilitychange', () => { if (!document.hidden) render(); });
+    document.addEventListener('visibilitychange', () => { if (!document.hidden) render(); });
     addEventListener('focus', () => render());
 
     $('pet-btn').addEventListener('click', tap);
@@ -375,7 +375,9 @@ function boot() {
 
     if (v.greeting) heldGreeting = v.greeting;
 
-    pet.className = `pet is-${v.visual}`;
+    // setAttribute, not .className: on an SVG element className is a read-only
+    // SVGAnimatedString, and this module is strict mode, so assigning to it throws.
+    pet.setAttribute('class', `pet is-${v.visual}`);
     pet.dataset.acc = v.accessories.join(' ');
     $('pet-title').textContent = state.petName;
 
@@ -430,7 +432,8 @@ function boot() {
   function replay(cls, timer, ms, keep) {
     clearTimeout(timer);
     pet.classList.remove(cls);
-    void pet.offsetWidth;           // force reflow so the animation restarts on a repeat tap
+    pet.getBoundingClientRect();    // force reflow so the animation restarts on a repeat tap.
+                                    // Not offsetWidth: SVG elements do not have it.
     pet.classList.add(cls);
     keep(setTimeout(() => pet.classList.remove(cls), ms));
   }
